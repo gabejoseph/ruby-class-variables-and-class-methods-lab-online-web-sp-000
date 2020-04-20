@@ -42,7 +42,9 @@ class Song
     end
     array 
   end 
-  
+
+binding.pry
+
   def self.genre_count
     hash = {}
     self.genres.each do |genre|
