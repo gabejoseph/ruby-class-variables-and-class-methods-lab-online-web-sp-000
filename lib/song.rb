@@ -50,6 +50,8 @@ class Song
       binding.pry
       if hash[genre] == nil
         hash[genre] = 1
+      else 
+        hash[genre] += 1
       end
     end
       # binding.pry
