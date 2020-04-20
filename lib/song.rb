@@ -45,7 +45,8 @@ class Song
   end 
 
   def self.genre_count
-    @@genres.length
+    hash = {}
+    .each do |
       # binding.pry
   end
 
