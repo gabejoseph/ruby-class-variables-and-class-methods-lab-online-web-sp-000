@@ -17,6 +17,7 @@ class Song
     @@artists << artist
     @@genres << genre
     @@count += 1
+    binding.pry
   end
 
   def self.count 
@@ -42,8 +43,6 @@ class Song
     end
     array 
   end 
-
-binding.pry
 
   def self.genre_count
     hash = {}
