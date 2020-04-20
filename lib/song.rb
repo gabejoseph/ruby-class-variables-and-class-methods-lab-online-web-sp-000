@@ -49,6 +49,7 @@ class Song
     @@genres.each do |genre|
       binding.pry
       if hash[genre] = 1
+      end
     end
       # binding.pry
   end
