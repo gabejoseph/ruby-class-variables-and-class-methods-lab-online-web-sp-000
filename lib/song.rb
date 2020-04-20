@@ -45,10 +45,8 @@ class Song
   end 
 
   def self.genre_count
-    hash = {}
-    @@Genres.length do |x|
+    @@genres.length
       binding.pry
-    end
   end
 
 end
