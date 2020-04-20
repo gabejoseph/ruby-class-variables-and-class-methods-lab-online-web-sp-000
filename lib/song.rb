@@ -45,7 +45,7 @@ class Song
   
   def self.genre_count
     hash = {}
-    self.initialize.each do |x|
+    .each do |x|
       binding.pry
       hash[x] = @name
     end
