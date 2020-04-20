@@ -59,15 +59,15 @@ class Song
   
   def self.artist_count
   hash = {}
-  @@artists do |artist
+  @@artists do |artist|
     # binding.pry
     if hash[artist]
-      hash[artist1
+      hash[artist] += 1
     else 
-      hash[genre] = 1
+      hash[artist] = 1
     end
+    hash
   end
-  hash
-end
+  
 
 end
