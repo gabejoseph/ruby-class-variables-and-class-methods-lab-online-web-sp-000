@@ -48,7 +48,8 @@ class Song
     hash = {}
     @@genres.each do |genre|
       binding.pry
-      if hash[genre] = 1
+      if hash[genre] == nil
+        hash[genre] = 1
       end
     end
       # binding.pry
